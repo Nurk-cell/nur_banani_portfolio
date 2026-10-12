@@ -1,1 +1,261 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirai Robotics — Next-Gen Autonomous Systems</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-robot"></i> Mirai<span>Robotics</span>
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#robots">Autonomous Units</a></li>
+                    <li><a href="#tech">Innovation</a></li>
+                    <li><a href="#highlights">Milestones</a></li>
+                    <li><a href="#contact" class="btn btn-cyber">Deploy Unit</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Robotics Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="cyber-badge">
+                    <i class="fa-solid fa-microchip"></i> Powered by Raspberry Pi 5 & AI Vision
+                </div>
+                <h1>Autonomous Mobility & <span>Edge Intelligence</span></h1>
+                <p>Engineering next-generation robotic systems equipped with real-time computer vision, ultrasonic sensor arrays, and precision navigation control.</p>
+                <div class="hero-btns">
+                    <a href="#robots" class="btn btn-cyber">Explore Units <i class="fa-solid fa-chevron-right" style="margin-left: 6px;"></i></a>
+                    <a href="#tech" class="btn btn-outline-cyber">View Hardware Specs</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="specs-card">
+                    <div class="card-glow"></div>
+                    <div class="specs-header">
+                        <i class="fa-solid fa-terminal" style="color: var(--cyber-cyan);"></i>
+                        <span>mirai_v2.0_core_telemetry</span>
+                    </div>
+                    <div class="specs-list">
+                        <div class="spec-row">
+                            <span>Main Controller:</span>
+                            <span class="highlight">Raspberry Pi 5 Board</span>
+                        </div>
+                        <div class="spec-row">
+                            <span>Vision Sensor:</span>
+                            <span class="highlight">HuskyLens AI Module</span>
+                        </div>
+                        <div class="spec-row">
+                            <span>Proximity Array:</span>
+                            <span class="highlight">Multi-Ultrasonic Radar</span>
+                        </div>
+                        <div class="spec-row">
+                            <span>System Status:</span>
+                            <span class="status-active">● ONLINE & CALIBRATED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Robot Cards / Products Section -->
+    <section id="robots">
+        <div class="container">
+            <div class="section-header">
+                <h2>Autonomous Robot Lineup</h2>
+                <p>Engineered for high-precision obstacle detection, autonomous pathfinding, and interactive edge computing.</p>
+            </div>
+            <div class="robots-grid">
+                <!-- Card 1 -->
+                <div class="robot-card">
+                    <div class="robot-img-placeholder">
+                        <i class="fa-solid fa-car-tunnel"></i>
+                        <span class="badge-tag">Flagship Unit</span>
+                    </div>
+                    <div class="robot-info">
+                        <h3>Mirai 2.0 Rover</h3>
+                        <p>Advanced autonomous mobile platform driven by Raspberry Pi 5, integrating real-time HuskyLens object tracking and smart motor controllers.</p>
+                        <ul class="robot-specs-tags">
+                            <li>Pi 5 OS</li>
+                            <li>HuskyLens AI</li>
+                            <li>LiDAR Ready</li>
+                        </ul>
+                        <a href="#contact" class="card-link">Request Specs <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="robot-card">
+                    <div class="robot-img-placeholder">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <span class="badge-tag">Edge Node</span>
+                    </div>
+                    <div class="robot-info">
+                        <h3>Sensor Fusion Hub</h3>
+                        <p>Decentralized gateway unit merging ultrasonic distance mapping with telemetry feeds for real-time remote monitoring.</p>
+                        <ul class="robot-specs-tags">
+                            <li>Ultrasonic Array</li>
+                            <li>SSH Control</li>
+                            <li>Static IP Setup</li>
+                        </ul>
+                        <a href="#contact" class="card-link">Request Specs <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="robot-card">
+                    <div class="robot-img-placeholder">
+                        <i class="fa-solid fa-cube"></i>
+                        <span class="badge-tag">Simulation</span>
+                    </div>
+                    <div class="robot-info">
+                        <h3>Blender Mesh Chassis</h3>
+                        <p>Custom structural chassis modeled in Blender with optimized wireframe weight distribution and modular sensor mounts.</p>
+                        <ul class="robot-specs-tags">
+                            <li>3D CAD Wireframe</li>
+                            <li>Modular Fit</li>
+                            <li>Lightweight Alloy</li>
+                        </ul>
+                        <a href="#contact" class="card-link">Request Specs <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Innovation Section -->
+    <section class="tech-section" id="tech">
+        <div class="container">
+            <div class="section-header">
+                <h2>Core Engineering Pillars</h2>
+                <p>The technical foundation powering intelligent automation and mechanical responsiveness.</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Computer Vision</h3>
+                    <p>Utilizing object recognition algorithms and color tracking via integrated vision hardware for intelligent decision making.</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Microcontroller Logic</h3>
+                    <p>Transitioning from embedded Arduino architecture to high-speed Linux processing boards for scalable robot control.</p>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-icon"><i class="fa-solid fa-route"></i></div>
+                    <h3>Autonomous Navigation</h3>
+                    <p>Real-time obstacle avoidance utilizing synchronized ultrasonic pulses and dynamic directional adjustments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Highlights Section -->
+    <section id="highlights">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mirai Evolution Milestones</h2>
+                <p>Tracking the structural upgrade path from foundational microcontrollers to advanced edge computers.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Phase 1</span>
+                        <h3>Mirai 1.0 Architecture</h3>
+                        <p>Built on Arduino Mega microcontroller logic, handling baseline motor drivers and rudimentary proximity sensors.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Phase 2</span>
+                        <h3>Blender 3D Modeling</h3>
+                        <p>Designed custom chassis enclosures and manipulated wireframe geometry for optimal component placement.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Phase 3</span>
+                        <h3>Mirai 2.0 Upgrade</h3>
+                        <p>Migrated to Raspberry Pi 5, configured static IP NetworkManager protocols, and integrated HuskyLens vision capabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-box-grid">
+                <div class="contact-intro">
+                    <h2>Initiate Collaboration</h2>
+                    <p>Interested in robotics research, engineering partnerships, or custom autonomous builds? Send a secure transmission.</p>
+                    <div class="contact-meta">
+                        <div class="meta-row"><i class="fa-solid fa-envelope"></i> engineering@mirai-robotics.io</div>
+                        <div class="meta-row"><i class="fa-solid fa-terminal"></i> Secure SSH Node Active</div>
+                    </div>
+                </div>
+                <form class="cyber-form" onsubmit="event.preventDefault(); alert('Transmission received successfully!');">
+                    <div class="form-group">
+                        <label>Operator / Entity Name</label>
+                        <input type="text" class="cyber-input" placeholder="Enter designation..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Secure Communication Channel</label>
+                        <input type="email" class="cyber-input" placeholder="operator@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Project Parameters / Inquiry</label>
+                        <textarea class="cyber-input" rows="4" placeholder="Specify requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-cyber" style="width: 100%;">Transmit Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Mirai Robotics Systems. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
