@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusAI — Next-Generation Cloud & Intelligence</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-cube"></i> NexusAI
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.2rem;">Get Started</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <i class="fa-solid fa-bolt"></i> V2.4 Enterprise Release Live
+                </div>
+                <h1>Scale Your Infrastructure with <span>Intelligent Cloud</span></h1>
+                <p>Empower your engineering workflows with next-gen automated pipelines, lightning-fast edge deployment, and real-time analytics.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Start Free Trial <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+                    <a href="#services" class="btn btn-outline">Explore Products</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>99.99%</h3>
+                        <p>Uptime SLA</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10x</h3>
+                        <p>Faster Deployment</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>AI Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="mockup-card">
+                    <div class="mockup-header">
+                        <div class="dots">
+                            <div class="dot dot-red"></div>
+                            <div class="dot dot-yellow"></div>
+                            <div class="dot dot-green"></div>
+                        </div>
+                        <span style="font-size: 0.8rem; color: var(--text-muted); font-family: monospace;">pipeline_status.sh</span>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="skeleton-line w-80"></div>
+                        <div class="skeleton-line w-50"></div>
+                        <div class="skeleton-line w-90"></div>
+                        <div class="metric-box">
+                            <div>
+                                <span style="font-size: 0.85rem; color: var(--text-muted);">Active Node Clusters</span>
+                                <h4 style="font-size: 1.1rem; color: var(--accent);">1,428 Operational</h4>
+                            </div>
+                            <i class="fa-solid fa-server" style="color: var(--primary); font-size: 1.25rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products / Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Engineered for High-Performance Teams</h2>
+                <p>Everything you need to build, scale, and secure your modern technical stack under a unified platform.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h3>Autonomous Cloud Sync</h3>
+                    <p>Real-time bidirectional state synchronization across multi-region edge clusters with automatic conflict resolution.</p>
+                    <a href="#contact" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI Pipeline Automation</h3>
+                    <p>Leverage custom neural weights to auto-optimize workloads, reduce server lag, and predict infrastructure failures.</p>
+                    <a href="#contact" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Enterprise Security Core</h3>
+                    <p>End-to-end cryptographic token handling, zero-trust gateway architecture, and compliance reporting out of the box.</p>
+                    <a href="#contact" class="card-link">Learn more <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-content">
+                <h2>Pioneering the Future of Scalable Software Architecture</h2>
+                <p>Founded by engineers, for engineers. NexusAI bridges the gap between raw compute power and elegant developer experience. We build reliable toolchains that eliminate friction.</p>
+                <div class="features-list">
+                    <div class="feature-item"><i class="fa-solid fa-check"></i> Zero-latency Edge Routing</div>
+                    <div class="feature-item"><i class="fa-solid fa-check"></i> Modular API Ecosystem</div>
+                    <div class="feature-item"><i class="fa-solid fa-check"></i> Automated Failover</div>
+                    <div class="feature-item"><i class="fa-solid fa-check"></i> Enterprise RBAC Control</div>
+                </div>
+            </div>
+            <div class="about-image-wrapper">
+                <div class="about-box-grid">
+                    <div class="about-card-stat">
+                        <h4>99.9%</h4>
+                        <p>Client Retention</p>
+                    </div>
+                    <div class="about-card-stat">
+                        <h4>50M+</h4>
+                        <p>Requests Handled Daily</p>
+                    </div>
+                    <div class="about-card-stat">
+                        <h4>120+</h4>
+                        <p>Global Edge Nodes</p>
+                    </div>
+                    <div class="about-card-stat">
+                        <h4>24/7</h4>
+                        <p>Engineer-led Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch With Our Team</h2>
+                <p>Ready to upgrade your system architecture? Drop us a message and our technical specialists will reach out.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div>
+                        <h3>Let's build something extraordinary.</h3>
+                        <p>Whether you have a question about custom deployments, pricing, or enterprise features, our team is ready to assist.</p>
+                    </div>
+                    <div class="info-items">
+                        <div class="info-item"><i class="fa-solid fa-envelope"></i><span>contact@nexusai.tech</span></div>
+                        <div class="info-item"><i class="fa-solid fa-phone"></i><span>+1 (555) 382-9011</span></div>
+                        <div class="info-item"><i class="fa-solid fa-location-dot"></i><span>Silicon Valley, CA, USA</span></div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent successfully.');">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Jane Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="jane@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" class="form-control" placeholder="Tell us about your project requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo"><i class="fa-solid fa-cube"></i> NexusAI</a>
+                    <p>Next-generation cloud infrastructure and intelligent automation toolchains for high-velocity engineering teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links" style="margin-top: 0.5rem;">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexusAI Inc. All rights reserved.</p>
+                <p>Designed with HTML & CSS</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.querySelector('i').classList.remove('fa-xmark');
+                hamburger.querySelector('i').classList.add('fa-bars');
+            });
+        });
+    </script>
+</body>
+</html>
